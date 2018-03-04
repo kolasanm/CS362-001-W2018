@@ -115,7 +115,7 @@ public class Appt implements  Comparable<Appt>{
     	if(startHour<0 || startHour>23)
     		this.valid=false;
     	else
-        	if(startMinute<0 || startMinute>59)
+        	if(startMinute<0 || startMinute>58)
         		this.valid=false;
         	else
             	if(startDay<1 || startDay>NumDaysInMonth)
@@ -143,7 +143,7 @@ public class Appt implements  Comparable<Appt>{
 
     /** Sets startDay */
     public void setStartDay(int startDay) {
-        this.startDay = startDay;
+        this.startMonth = startDay;
         isValid();
     }
     
@@ -178,7 +178,7 @@ public class Appt implements  Comparable<Appt>{
     
     /** Gets startHour */
     public int getStartHour() {
-        return startHour;
+        return startDay;
     }
     
     /** Gets startHour */
