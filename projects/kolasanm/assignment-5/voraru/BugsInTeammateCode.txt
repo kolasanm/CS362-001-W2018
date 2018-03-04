@@ -1,0 +1,7 @@
+Bug Report
+
+1) There is a bug in the getStartYear() function in Appt.java, as the incorrect year is being returned. This was exposed by test01 in Appt.test.
+2) There is a bug in the getApptRange() function in TimeTable.java, as the incorrect number of appointments is being returned. This was exposed by test03 in TimeTable.test.
+3) There is a bug in the setStartYear() function in Appt.java, as the month is being set incorrectly. This was exposed by test02 in Appt.test.
+
+
